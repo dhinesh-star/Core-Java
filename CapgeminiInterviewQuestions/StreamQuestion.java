@@ -17,7 +17,7 @@ public class StreamQuestion {
         );
 
         Person maxAgePerson = personList.stream()
-                .reduce(personList.get(0), (p1, p2) ->{
+                .reduce(null, (p1, p2) ->{
                     if(p1 != null && p1.getAge() > p2.getAge()) return p1;
                     return p2;
                 });
