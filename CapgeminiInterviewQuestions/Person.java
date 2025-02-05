@@ -1,6 +1,6 @@
 package CapgeminiInterviewQuestions;
 
-public class Person {
+public class Person implements Comparable<Person> {
     private String name;
     private Integer age;
     private Integer salary;
@@ -33,5 +33,12 @@ public class Person {
 
     public void setSalary(Integer salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public int compareTo(Person that) {
+        // Sorting in descending order 
+        if(this.getAge() < that.getAge()) return 1;
+        return -1;
     }
 }
