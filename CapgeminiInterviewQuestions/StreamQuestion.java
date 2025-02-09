@@ -44,9 +44,11 @@ public class StreamQuestion {
 
 
         // 3rd Approach to solve the question using max function in stream api.
-        Comparator<Person> con1 = (p1, p2) -> p1.getAge() - p2.getAge();
 
-        Person maxAgePersonUsingMaxFn = personList.stream().max(con1).orElse(null);
+        Person maxAgePersonUsingMaxFn = personList.stream().max((p1, p2) -> {
+            if(p1.getAge() > p2.getAge()) return 1;
+            return -1;
+        }).orElse(null);
         System.out.println("maxAgePerson name using max stream function >> "+maxAgePersonUsingMaxFn.getName());
     }
 }
