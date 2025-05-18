@@ -1,0 +1,3 @@
+My Own Stream API question.
+
+1. Write a stream code to find the number of character count in the string given.

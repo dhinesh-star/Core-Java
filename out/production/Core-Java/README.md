@@ -6,4 +6,3 @@ Core-Java Concepts
 4. Comparator and Comparable >> 05/02/2025
 5. Stream API practice >> 24/03/2025
 6. Multithreading with Threads practice >> 18/05/2025
-7. Multithreading with Runnable Interface practicing >> 18/05/2025

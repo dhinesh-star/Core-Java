@@ -1,0 +1,33 @@
+Great! Here are **5 Stream API questions** with increasing difficulty. Solve them, and I'll rate your solutions.
+
+---
+
+### **🟢 Easy:**
+1️⃣ **Find Odd Numbers in a List**
+   Given a list of integers, filter out **odd numbers** using the Stream API.
+
+2️⃣ **Find the Total Length of All Strings**
+   Given a list of strings, find the **sum of the lengths** of all strings.
+
+---
+
+### **🟡 Medium:**
+3️⃣ **Find the Most Frequent Element in a List**
+   Given a list of integers, find the number that appears **most frequently** using the Stream API.
+
+4️⃣ **Find the Longest String in a List**
+   Given a list of strings, find the **longest string** using Streams.
+
+---
+
+### **🔴 Hard:**
+5️⃣ **Sort a List of Employees by Salary (Descending) and Then by Name (Ascending)**
+   Given a list of `Employee` objects (`name, salary`), **sort them first by salary (highest first), then by name (A-Z)**.
+
+---
+
+### **Bonus Challenge** 🌟
+6️⃣ **Find the Second Non-Repeating Character in a String**
+   Given a string, find the **second non-repeating** character using the Stream API.
+
+---
